@@ -45,8 +45,8 @@ public class Audio extends Thread
          */
         try
         {
-            int N = AudioRecord.getMinBufferSize(8000,AudioFormat.CHANNEL_IN_MONO,AudioFormat.ENCODING_PCM_16BIT);
-            recorder = new AudioRecord(MediaRecorder.AudioSource.MIC, 8000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, N*10);
+            int N = AudioRecord.getMinBufferSize(32000,AudioFormat.CHANNEL_IN_MONO,AudioFormat.ENCODING_PCM_16BIT);
+            recorder = new AudioRecord(MediaRecorder.AudioSource.MIC, 32000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT, N*10);
 
             AcousticEchoCanceler canceler =  AcousticEchoCanceler.create(recorder.getAudioSessionId());
             NoiseSuppressor ns = NoiseSuppressor.create(recorder.getAudioSessionId());
@@ -55,7 +55,7 @@ public class Audio extends Thread
             ns.setEnabled(true);
             //agc.setEnabled(true);
 
-            track = new AudioTrack(AudioManager.STREAM_MUSIC, 8000,
+            track = new AudioTrack(AudioManager.STREAM_MUSIC, 32000,
                     AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT, N*10, AudioTrack.MODE_STREAM);
             recorder.startRecording();
             track.play();

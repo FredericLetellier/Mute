@@ -3,6 +3,24 @@
 
     <item
         is-multidex="false"
+        jar="C:\Java\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_a9bfba33c8067fc9741332e912a0dde45969f22b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace\Mute\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_dba900674e66f7d87d975ab6ead804a68d1298f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Workspace\Mute\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="false"
@@ -16,7 +34,7 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.2"
-        sha1="3ae247a6a4c4a7695516808b383da9ab30d3a900">
+        sha1="4d59a5a28ceb3e07b1461cccc099c8bb41f7ae17">
         <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a141c5bccf9edb019b246b24acdcf0a39f390bd5.jar" />
     </item>
     <item
@@ -48,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Java\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.2"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_a9bfba33c8067fc9741332e912a0dde45969f22b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Workspace\Mute\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="false"
@@ -79,17 +88,8 @@
         jumboMode="true"
         optimize="false"
         revision="23.0.2"
-        sha1="aef7bf17b388d91d7bb635f4da3471298fd4d3c2">
+        sha1="9f76e21df0322cc785523cbae8d8030be01e91e5">
         <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\instant-run_6435333f4bab2a177b78f87b42fcd670a1c15f8e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Workspace\Mute\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="23.0.2"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="C:\Workspace\Mute\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_dba900674e66f7d87d975ab6ead804a68d1298f2.jar" />
     </item>
 
 </items>
